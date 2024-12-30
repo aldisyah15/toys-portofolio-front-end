@@ -23,10 +23,15 @@ export default {
         scrollHorizontal: {
           '0%': { transform: 'translateX(0%)' },
           '100%': { transform: 'translateX(-100%)' },
-        }
+        },
+        scrollHorizontalMobile: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' }, // Perpanjang jarak animasi untuk efek looping
+        }        
       },
       animation: {
-        scroll: "scrollHorizontal 20s linear infinite"
+        scroll: "scrollHorizontal 10s linear infinite",
+        scrollMobile: "scrollHorizontalMobile 10s linear infinite"
       }
     },
   },

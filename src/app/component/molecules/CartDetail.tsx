@@ -19,7 +19,7 @@ export default function CartDetail({
   return (
     <div className="border-2 border-[#7e22ce]  rounded-xl p-2 backdrop-blur-md text-white w-48">
       <div className="flex flex-col items-center cursor-pointer">
-        <h1 className="text-xl font-bold">{title}</h1>
+        <h1 className="text-xl font-bold text-center">{title}</h1>
         <p className="text-sm">{brandName}</p>
       </div>
       <div className="text-sm flex justify-between items-center font-orbitron cursor-pointer">

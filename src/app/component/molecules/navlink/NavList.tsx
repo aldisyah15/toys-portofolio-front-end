@@ -79,6 +79,7 @@ export default function NavList({ isOpen }: NavListType) {
         <ButtonComponent
           label="Log In"
           classname="border-b-2 border-[#61337a]"
+          Href="/login"
         />
         <ButtonComponent
           label="Get Started"

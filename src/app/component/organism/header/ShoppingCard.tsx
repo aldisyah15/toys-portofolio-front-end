@@ -24,14 +24,14 @@ export default function ShoppingCard({
   title,
 }: ShoppingCardType) {
   return (
-    <div className="flex flex-col items-center border-2 border-[#7e22ce] p-4 clip-path-cutCorners text-white">
-      <div className="rounded-xl pb-5">
+    <div className="w-[18.75rem] flex flex-col items-center border-2 border-[#7e22ce] p-4 clip-path-cutCorners text-white">
+      <div className="rounded-xl pb-5 max-w-[200px] min-h-[200px]">
         <Image
           src={src_ProductPhoto}
           alt=""
           width={width_ProdukPhoto}
           height={height_ProdukPhoto}
-          className="rounded-xl"
+          className="rounded-xl "
         />
       </div>
 
