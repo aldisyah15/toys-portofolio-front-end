@@ -20,7 +20,7 @@ export default function HowItWork() {
             <h1 className="text-4xl font-orbitron flex justify-center">How It Works</h1>
             <div className="flex justify-around items-center flex-col md:flex-row">
                 <div className="">
-                <Image src={'/online-shop.svg'} alt="online-shop" height={500} width={500} className="w-[300px] md-[25rem]"/>
+                <Image src={'https://img.freepik.com/free-psd/3d-female-character-holding-tablet-device_23-2148938895.jpg?ga=GA1.1.1069127498.1732985300&semt=ais_hybrid'} alt="online-shop" height={500} width={500} className="w-[300px] md-[25rem] rounded-xl"/>
             </div>
            <div className="flex flex-col justify-center w-[15.625rem] md:w-auto">
                {shoppingSteps.map((step, index) => (

@@ -1,4 +1,3 @@
-import test from "node:test";
 import TestimoniComponent from "../molecules/TestimoniComponent";
 
 export default function Testimonial() {
