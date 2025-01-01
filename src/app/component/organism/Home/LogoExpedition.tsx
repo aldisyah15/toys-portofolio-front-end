@@ -1,4 +1,4 @@
-import LogoSlider from "../molecules/LogoSlider";
+import LogoSlider from "../../molecules/LogoSlider";
 
 export default function LogoExpedition() {
     return (

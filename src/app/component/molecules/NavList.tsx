@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Navlink from "../../atoms/Navlink/Navlink";
+import Navlink from "../atoms/Navlink/Navlink";
 import { useState } from "react";
-import Dropdown from "../../atoms/dropdown/Dropdown";
-import ButtonComponent from "../../atoms/button/ButtonComponent";
+import Dropdown from "../atoms/dropdown/Dropdown";
+import ButtonComponent from "../atoms/button/ButtonComponent";
 
 type NavListType = {
   isOpen?: boolean;

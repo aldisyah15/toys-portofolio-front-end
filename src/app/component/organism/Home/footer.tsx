@@ -1,6 +1,6 @@
-import Logo from "../atoms/Logo/page";
-import SearchBar from "../atoms/SearchBar";
-import FooterLinks from "../molecules/FooterLinks";
+import Logo from "../../atoms/Logo/page";
+import SearchBar from "../../atoms/SearchBar";
+import FooterLinks from "../../molecules/FooterLinks";
 
 const footerData = [
     {

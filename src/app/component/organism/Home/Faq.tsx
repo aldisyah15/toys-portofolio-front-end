@@ -1,4 +1,4 @@
-import Accordion from "../molecules/accordion";
+import Accordion from "../../molecules/accordion";
 
 export default function Faq() {
   return (

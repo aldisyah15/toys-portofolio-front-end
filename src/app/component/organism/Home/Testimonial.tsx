@@ -1,4 +1,4 @@
-import TestimoniComponent from "../molecules/TestimoniComponent";
+import TestimoniComponent from "../../molecules/TestimoniComponent";
 
 export default function Testimonial() {
     const comments = [

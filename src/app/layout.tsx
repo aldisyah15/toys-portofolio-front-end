@@ -1,6 +1,6 @@
+import Footer from "./component/organism/Home/footer";
+import Header from "./component/organism/Home/Header";
 import "./globals.css";
-
-
 
 export default function RootLayout({
   children,
@@ -12,7 +12,9 @@ export default function RootLayout({
       <body
         className={`antialiased bg-black h-screen max-h-screen overflow-x-hidden text-white font-exo`}
       >
-        {children}
+        <Header />
+        <main className="pt-20">{children}</main>
+        <Footer />
       </body>
     </html>
   );

@@ -1,7 +1,9 @@
+"use client"
+
 import Image from "next/image";
 import ButtonComponent from "../../atoms/button/ButtonComponent";
 import Logo from "../../atoms/Logo/page";
-import NavList from "../../molecules/navlink/NavList";
+import NavList from "../../molecules/NavList";
 import Menu from "../../atoms/menu/menu";
 import { useState } from "react";
 

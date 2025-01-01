@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CartDetail from "./../../molecules/CartDetail";
+import CartDetail from "../../molecules/CartDetail";
 
 type ShoppingCardType = {
   src_ProductPhoto: string;
