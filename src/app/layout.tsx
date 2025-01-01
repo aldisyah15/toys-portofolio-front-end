@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased bg-black h-screen max-h-screen overflow-x-hidden "w-screen text-white font-exo`}
+        className={`antialiased bg-black h-screen max-h-screen overflow-x-hidden w-full text-white font-exo`}
       >
         <Header />
         <main className="pt-20">{children}</main>
