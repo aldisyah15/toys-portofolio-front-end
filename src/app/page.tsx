@@ -11,14 +11,12 @@ import Testimonial from "./component/organism/Home/Testimonial";
 const Page = () => {
   return (
     <div className="">
-      <Header />
       <Content />
       <PopularToys/>
       <HowItWork /> 
       <Testimonial/>
       <LogoExpedition />
       <Faq/>
-      <Footer />
     </div>
   );
 };
