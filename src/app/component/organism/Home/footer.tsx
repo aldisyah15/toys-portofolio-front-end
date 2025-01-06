@@ -42,7 +42,7 @@ const footerData = [
 export default function Footer() {
     
     return (
-        <div className="flex flex-col items-center pt-10 gap-10 border-t-2 mt-10">
+        <div className="flex flex-col items-center pt-10 gap-10 border-t-2 mt-10 border-2 mx-5 border-yellow-500">
             <div className="">
                 <Logo />
             </div>

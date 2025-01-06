@@ -13,8 +13,8 @@ export default function Header() {
         setIsOpen(!isOpen)
     }
   return (
-    <header className="flex flex-col xl:flex-row text-white xl:justify-arounds py-4 gap-14 fixed w-full bg-black z-40">
-      <section className="flex gap-8 flex-col xl:flex-row ">
+    <header className="flex border border-pink-400 ml-5 mr-16 flex-col xl:flex-row text-white xl:justify-arounds py-4 gap-14 fixed max-w-max bg-black z-40">
+      <section className="flex gap-8 flex-col xl:flex-row">
         <span className="flex gap-5">
           <Menu onclick={click} isOpen={isOpen}/>
           <Logo />
@@ -23,7 +23,7 @@ export default function Header() {
       </section>
       
 
-      <section className={`md:flex gap-7 items-center absolute top-0 md:right-0 xl:relative md:bg-transparent hidden  ${isOpen ? "transition-all transform ease-in-out duration-[800ms]" : "transition-all transform ease-in-out duration-[800ms] -translate-x-[30rem] md:-translate-x-0"}`}>
+      <section className={`min-w-max border-2 border-white md:flex gap-7 items-center absolute top-0 md:right-0 xl:relative md:bg-transparent hidden  ${isOpen ? "transition-all transform ease-in-out duration-[800ms]" : "transition-all transform ease-in-out duration-[800ms] -translate-x-[30rem] md:-translate-x-0"}`}>
         <ButtonComponent
           label="Log In"
           classname="border-b-2 border-[#61337a]"
